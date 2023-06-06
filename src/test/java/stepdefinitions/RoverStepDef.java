@@ -36,7 +36,6 @@ public class RoverStepDef {
         assertEquals(arg2, (long) rover.getFacing());
     }
 
-
     @Given("a rover is positioned at Coordinates {int} , {int} facing East as {int}")
     public void a_rover_is_positioned_at_coordinates_facing_east_as(Integer int1, Integer int2, Integer int3) {
         rover.setPosition(int1, int2, int3);
